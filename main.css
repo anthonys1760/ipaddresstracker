@@ -1,3 +1,13 @@
 body {
     background: url(images/pattern-bg.png);
+    background-repeat: no-repeat;
+}
+
+.form-control {
+    
+}
+
+#heading {
+    color: white;
+    text-align: center;
 }

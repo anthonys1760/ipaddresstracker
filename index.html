@@ -38,18 +38,26 @@
 </head>
 
 <body>
-    <h1 class="p-4">IP Address Tracker</h1>
-    <form class="p-4">
-        <div class="form-group">
-            <div class="input-group flex-nowrap">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="addon-wrapping">@</span>
-                </div>
-                <input type="text" class="form-control" placeholder="192.168.100.1.1" aria-label="Username" aria-describedby="addon-wrapping">
+    <div id="main">
+        <h1 id="heading">IP Address Tracker</h1>
+        <!-- Form Input -->
+        <div class="input-group">
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+            <div class="input-group-append">
+              <button type="button" class="btn btn-outline-secondary">Action</button>
+              <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
               </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+            </div>
+          </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
