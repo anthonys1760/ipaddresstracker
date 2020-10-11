@@ -22,3 +22,8 @@ body {
     background-image: url('images/pattern-bg.png');
     padding: 40px;
 }
+
+#basic-addon1 {
+    background: #000;
+    color: #fff;
+}
