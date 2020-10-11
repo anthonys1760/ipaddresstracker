@@ -1,13 +1,24 @@
 body {
-    background: url(images/pattern-bg.png);
-    background-repeat: no-repeat;
+    
 }
 
 .form-control {
     
 }
 
+/* .input-group {
+    padding: 10px 400px 0 400px;
+    text-align: center;
+    width: 100%;
+} */
+
 #heading {
+    padding-top: 20px;
     color: white;
     text-align: center;
+}
+
+#main {
+    background-image: url('images/pattern-bg.png');
+    padding: 40px;
 }
