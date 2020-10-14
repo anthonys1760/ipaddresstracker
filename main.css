@@ -27,3 +27,10 @@ body {
     background: #000;
     color: #fff;
 }
+
+.container {
+    background: #fff;
+    position: relative;
+    bottom: 50px;
+    border-radius: 5px;
+}
