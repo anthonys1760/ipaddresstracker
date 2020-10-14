@@ -38,3 +38,5 @@ body {
 #form {
     border-radius: 10px !important;
 }
+
+#mapid { height: 180px; }
