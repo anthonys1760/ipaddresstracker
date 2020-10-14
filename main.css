@@ -1,16 +1,10 @@
 body {
-    background-image: url('map.png');
+    background-image: url('map.jpeg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
-
-.form-control {
-    
-}
-
-/* .input-group {
-    padding: 10px 400px 0 400px;
-    text-align: center;
-    width: 100%;
-} */
 
 #heading {
     padding-top: 20px;
@@ -33,6 +27,10 @@ body {
     position: relative;
     bottom: 50px;
     border-radius: 10px;
-    padding: 25px;
+    padding: 15px;
     z-index: 3;
+}
+
+.element {
+    border-right: 1px solid #DCDCDC;
 }
