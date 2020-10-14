@@ -34,3 +34,7 @@ body {
 .element {
     border-right: 1px solid #DCDCDC;
 }
+
+#form {
+    border-radius: 10px !important;
+}
