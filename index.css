@@ -1,0 +1,47 @@
+#heading {
+  color: #fff !important;
+}
+/*# sourceMappingURL=index.css.map */
+
+body {
+    background-image: url('map.jpeg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#heading {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+#main {
+    background-image: url('images/pattern-bg.png');
+    padding: 40px;
+}
+
+#basic-addon1 {
+    background: #000;
+    color: #fff;
+}
+
+.container {
+    background: #fff;
+    position: relative;
+    bottom: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    z-index: 3;
+}
+
+.element {
+    border-right: 1px solid #DCDCDC;
+}
+
+#form {
+    border-radius: 10px !important;
+}
+
+#mapid { height: 180px; }
